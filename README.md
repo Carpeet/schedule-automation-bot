@@ -49,6 +49,26 @@ Bot: Schedule saved successfully.
 
 *Example messages are illustrative and contain no real employee data.*
 
+## Screenshots
+
+### Main workflow — User authentication and command routing
+
+The main workflow processes incoming Telegram messages, checks user access permissions, and routes commands to the appropriate automation branches.
+
+![Main workflow](screenshots/main-workflow.png)
+
+### Schedule application sub-workflow
+
+A reusable n8n workflow that creates weekly sheets, assigns employee columns, prepares batch updates, and applies schedules through the Google Sheets API.
+
+![Schedule application workflow](screenshots/apply-schedule.png)
+
+### Telegram bot interaction
+
+An example of submitting a weekly schedule through Telegram and receiving confirmation after successful processing.
+
+![Telegram bot interaction](screenshots/telegram-example.png)
+
 ## Project outcome
 
 A working scheduling assistant used in an organization's daily operations. It reduces repetitive manual entry and provides a consistent workflow for submitting and updating schedules. No quantitative time-savings claim is made because this has not been measured.
