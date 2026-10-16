@@ -75,7 +75,7 @@ A working scheduling assistant used in an organization's daily operations. It re
 
 ## Source availability
 
-This repository is **documentation-only**. It intentionally does not include production workflow exports, source code, access tokens, employee information, spreadsheet identifiers, or internal URLs. Screenshots may be added later after review and anonymization.
+This repository is **documentation-only**. It intentionally does not include production workflow exports, source code, access tokens, employee information, spreadsheet identifiers, or internal URLs.
 
 ## Author
 
